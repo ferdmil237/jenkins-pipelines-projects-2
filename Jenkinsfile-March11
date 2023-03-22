@@ -6,7 +6,7 @@ node{
    }
 
 stage('CLONEFROMGITHUB'){
-    git 'https://github.com/Lion-Technology-Solutions/jenkins-pipelines-projects-2.git'
+    git  'https://github.com/ferdmilprojectx1/jenkins-pipelines-projects-2.git'
 }
 
 stage('mavenbuild&Package'){
